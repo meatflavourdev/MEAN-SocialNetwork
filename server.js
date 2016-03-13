@@ -4,6 +4,10 @@ var bodyParser = require('body-parser');
 var app = express();
 app.use(bodyParser.json());
 
+app.get('/posts', function(req, res){
+    res.sendFile('/projects/MEAN-SocialNetwork/posts.html');
+});
+
 app.get('/api/posts', function(req, res){
    res.json([
        {
