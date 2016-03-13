@@ -7,16 +7,14 @@ var app = express();
 app.use(bodyParser.json());
 
 app.get('/posts', function(req, res){
-    res.sendFile('./posts.html');
+    res.sendFile('/projects/MEAN-SocialNetwork/posts.html');
 });
 
 app.get('/api/posts', function(req, res){
-   res.json([
-       {
-           username : 'dickeyxxx',
-           body: 'node rocks!'
-       }
-   ]);
+   Post.find(function(err, posts){
+       if(err){ return next(err); }
+       res.json(posts);
+   });
 });
 
 app.post('/api/posts', function(req, res, next){
