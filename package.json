@@ -1,0 +1,19 @@
+{
+  "name": "mean-socialnetwork",
+  "version": "0.0.1",
+  "description": "",
+  "main": "posts.html",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap": "^4.0.0-alpha.2",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "",
+  "license": "ISC"
+}

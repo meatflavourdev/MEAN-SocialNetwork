@@ -1,0 +1,22 @@
+{
+  "name": "mean-socialnetwork",
+  "description": "",
+  "main": "posts.html",
+  "authors": [
+    "Jeremy Dombrowski <me@jeremyfelix.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tether": "^1.2.0"
+  }
+}
