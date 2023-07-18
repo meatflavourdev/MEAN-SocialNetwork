@@ -7,7 +7,7 @@
     "body-parser": "^1.15.0",
     "bootstrap": "^4.0.0-alpha.2",
     "express": "^4.13.4",
-    "mongoose": "^4.4.7"
+    "mongoose": "^5.13.20"
   },
   "devDependencies": {
     "grunt": "^0.4.5"
