@@ -5,7 +5,7 @@
   "main": "posts.html",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "bootstrap": "^4.0.0-alpha.2",
+    "bootstrap": "^5.0.0",
     "express": "^4.13.4",
     "mongoose": "^4.4.7"
   },
